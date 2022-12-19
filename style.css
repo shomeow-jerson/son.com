@@ -1,0 +1,295 @@
+nav ul li{
+    list-style-type: none;
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px 30px;
+    justify-items: right;
+    margin: 0%;
+
+*
+  }
+.image-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-top: 10rem;
+      align-items: center;
+    }
+    .image-wrapper::before {
+      content: "";
+      position: absolute;
+      background: rgba(70, 70, 80, 0.503);
+      width: 30rem;
+      height: 50px;
+      bottom: 70px;
+      filter: blur(20px);
+      border-radius: 30%;
+    }
+    .image-wrapper img {
+      width: 200px;
+      clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+      transition: 0.5s ease-out 100ms;
+      cursor: pointer;
+    }
+    
+    .image-wrapper img:hover {
+      transform: scale(1.05);
+    }
+    .image-wrapper .img1 {
+      height: 20rem;
+      margin-right: -30px;
+    }
+    .image-wrapper .img2 {
+      height: 24rem;
+      margin-right: -30px;
+    }
+    .image-wrapper .img3 {
+      height: 20rem;
+    }
+    div .hi h1{
+     font-size: 30px;
+     margin: 0px;
+     padding-inline: 0px;
+     font-family:  lucida console;
+     padding: 0px;
+    }
+    div .hi p{
+      color: #ffe6b2;
+      font-family: lucida console;
+    }
+    div .h1 h4{
+
+      font-family: lucida console;
+    }
+        div.logo img{
+  float: left;
+  width: 210px;
+  height: auto;
+  margin-top: 5px;
+}
+div .hi h1{
+  margin: 0px;
+}
+.cssbuttons-io-button {
+ background:  #ffe6b2;
+ color: black;
+ font-family: inherit;
+ padding: 0.35em;
+ padding-left: 1.2em;
+ font-size: 17px;
+ font-weight: 500;
+ border-radius: 0.9em;
+ border: none;
+ letter-spacing: 0.05em;
+ display: flex;
+ align-items: center;
+ box-shadow: inset 0 0 1.6em -0.6em  #ffe6b2;
+ overflow: hidden;
+ position: relative;
+ height: 2.8em;
+ padding-right: 3.3em;
+}
+
+.cssbuttons-io-button .icon {
+ background: ghostwhite;
+ margin-left: 1em;
+ position: absolute;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 2.2em;
+ width: 2.2em;
+ border-radius: 0.7em;
+ box-shadow: 0.1em 0.1em 0.6em 0.2em  #ffe6b2;
+ right: 0.3em;
+ transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+ width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+ width: 1.1em;
+ transition: transform 0.3s;
+ color: #7b52b9;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+ transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+ transform: scale(0.95);
+}
+
+
+ 
+ div.tt-about h1{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  margin-top: 17rem;
+
+ }
+ div.tt-about h5{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0rem;
+ }
+ .tt-about h5{
+  color: #1C3879;
+  margin-top: 20%;
+  font-family: lucida console;
+  justify-content: flex;
+ }
+ .tt-about h1{
+  margin-top: 20%;
+  font-family: lucida console;
+  justify-content: flex;
+ }
+
+div .abpic{
+  justify-content: flex;
+  width: 19%;
+  height: 350px;
+  margin-top: 2rem;
+ margin-right: 1%;
+ position: relative;
+ border-radius: 7px;
+ box-shadow: 5px 5px 5px rgba(0,0,.5);
+ }
+ .about-text{
+  width: 550px;
+  border-radius: 7px;
+  background-color:;
+  font-family: lucida console;
+ 
+ }
+.main{
+  font-family:  lucida console;
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.icon{
+  display: flex;
+}
+.icon a{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  color:#000;
+  box-shadow: 0 0 20px 10px rgba(0,0,0,0.05);
+  margin: 0 30px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.icon a .fa-brands{
+  font-size: 30px;
+  line-height: 50px;
+  position: relative;
+  z-index: 10;
+  transition: color 0.5;
+}
+.icon a::after{
+  content:'';
+  width: 100%;
+  height: 100%;
+  top: -90px;
+  left: 0;
+  background: linear-gradient(-45deg, #ed1c94, #ffec17);
+  position: absolute;
+  transition: 0.5s;
+}
+.icon a:hover::after{
+  top: 0px;
+}
+.icon a:hover .fa-brands{
+  color: #fff;
+}
+.goal p{
+  border-radius: 7px;
+  margin-right: 45%;
+  margin-left: 10%;
+  margin-top: 2rem;
+  
+  font-family: lucida console;
+
+}
+.my h1 {
+  
+  font-family: lucida console;
+  margin: 0;
+  margin-left: 15%;
+  margin-right: 70%;
+}
+.my h5{
+  color:#1C3879;
+  margin:0px;
+  font-family: lucida console;
+  margin-top: 5rem;
+  margin-left: 18%;
+  margin-right:80%;
+}
+
+}
+.skillt h1{
+  color: #1C3879;
+   margin-top: 17%;
+  font-family: lucida console;
+  justify-content: flex;
+}
+
+
+div.skillt h1{
+  background-color: #;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12rem;
+
+ }
+ .list{
+  border-radius: 11px;
+  background-color:  #ffe6b2;
+  margin-top: 3%;
+  margin-right: 28%;
+ margin-left: 25%;
+ opacity: 70%;
+ }
+ .hob{
+  margin-top: 15%;
+ margin-left: 25%;
+
+ }
+
+.container{
+  margin-right: 50%;
+  display: flex;
+  height: 300px;
+  overflow-x: scroll;
+  padding: 24px;
+  width: 500px;
+  background: #607EAA;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 80px;
+  border-radius: 8px;
+  gap: 20px;
+ }
+.container{
+  height: 250px;
+  flex: 40 18 100%;
+  padding: 2%;
+  margin-left: 31%;
+  color:;
+  border-radius: 8px;
+  scroll-snap-align: start;
+
+
+ }
